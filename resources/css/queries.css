@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1023px) {
+    .wrapper {
+    	padding-top: 25%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	body {background-size: auto; background-position: center; }
+
+	.wrapper {padding-top: 5%;}
+	.headline {font-size: 2.5rem;}
+	.temp-toggle {margin-left: 75%;}
+	.my-location {display: block; margin: 30px auto 15px auto;}
+	/*.input-city {margin-bottom: 10px;}*/
+	.user-location-input {width: 100px;}
+	.btn-input {display: block; margin: 15px auto 15px auto;}
+	.loc {margin-top: 20px; margin-bottom: 10px; font-size: 1.5rem;}
+	.temp {font-size: 1.5rem; display: block; margin-right: 0;}
+	.description {margin-right: 0; margin-left: 0;}
+	.display {margin-bottom: 10px;}
+	.wind, .humidity {
+		font-size: .7rem;
+		width: 75px;
+		height: 37.5px;
+	}
+	.minmax {font-size: .7rem; width: 75px; height: 37.5px;}
+	.weather-additional {margin-top: 15px; margin-bottom: 15px;}
+	.sunset, .sunrise {margin-left: 20px; margin-right: 20px; font-size: 1.2rem;}
+	.ion-waterdrop, .ion-flag, .ion-umbrella {padding-right: 2px;}
+	.ion-ios-arrow-thin-up, .ion-ios-arrow-thin-down, .ion-ios-sunny {font-size: 1.2rem;}
+}

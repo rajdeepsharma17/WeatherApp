@@ -1,0 +1,22 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmalkhazov/maxmalkhazov-weatherApp.git"
+  },
+  "author": "Maxim Malkhazov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxmalkhazov/maxmalkhazov-weatherApp/issues"
+  },
+  "homepage": "https://github.com/maxmalkhazov/maxmalkhazov-weatherApp#readme",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
+}

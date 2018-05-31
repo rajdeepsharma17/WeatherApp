@@ -1,0 +1,242 @@
+
+/*======= GENERAL SETUP========*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url(https://images.unsplash.com/photo-1505699261378-c372af38134c?auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    background-position: center no-repeat; 
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	/*background-color: rgba(0, 0, 0, 0.2);*/
+	/*padding: 1%;*/
+}
+
+.wrapper {
+	text-align: center;
+	padding-top: 0;
+}
+
+/*======CONTROL BUTTONS==========*/
+
+.temp-toggle {
+	margin-left: 90%;
+	font-size: 1.5rem;
+}
+
+.celcius, .farenheit {
+	font-weight: 300;
+	transition: text-shadow 0.3s;
+}
+
+.celcius:hover, .farenheit:hover {
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+}
+
+.celcius:active, .farenheit:active {
+	font-weight: 700;
+}
+
+.selected {
+	font-weight: 700;
+	text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+}
+
+/*======USER INPUT BUTTONS======*/
+
+.my-location {
+	border-radius: 15px;
+	text-decoration: none;
+	font-size: 1.2rem;
+	padding: .5rem 1.25rem;
+	background-color: #e67e22;
+	color: #fff;
+	margin-bottom: 20px;
+	border: none;
+	font-weight: 300;
+	margin-right: 10px;
+	cursor: pointer;
+	outline: none;
+	transition: background-color 0.2s;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+.btn-input {
+	border-radius: 15px;
+	text-decoration: none;
+	font-size: 1.2rem;
+	padding: .5rem 1.25rem;
+	background-color: #e67e22;
+	color: #fff;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	border: none;
+	font-weight: 300;
+	cursor: pointer;
+	outline: none;
+	transition: background-color 0.2s;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+.btn-input:hover,
+.my-location:hover {
+	background-color: #cf6d17;
+}
+
+.btn-input:active,
+.my-location:active {
+	background-color: #e67e22;
+}
+
+/*========HEAD DISPLAY========*/
+
+.display {
+	margin-bottom: 50px;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.headline {
+	font-size: 3.9rem;
+	font-weight: 300;
+}
+
+.loc {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.user-input {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.user-location-input {
+	font-size: 1.2rem;
+	border: none;
+	outline: none;
+	width: 200px;
+}
+
+.input-city {
+	display: inline;
+}
+
+.output-desc {
+	text-transform: capitalize;
+}
+
+.temp {
+	display: inline;
+	margin-right: 20px;
+}
+
+.description {
+	display: inline;
+	margin-left: 20px;
+}
+
+/*========DETAILED DISPLAY=========*/
+
+.minmax {
+	border-radius: 40%;
+	display: inline-block;
+	height: 75px;
+	width: 150px;
+	margin-right: 10px;
+	color: #333;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 1px solid #fff;
+	font-size: 1.5rem;
+	color: #fff;
+	font-weight: 300;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .6);
+}
+
+.wind {
+    border-radius: 40%;
+	display: inline-block;
+	height: 75px;
+	width: 150px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 1px solid #fff;
+	font-size: 1.5rem;
+	color: #fff;
+	font-weight: 300;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .6);
+}
+
+.humidity {
+	border-radius: 40%;
+	display: inline-block;
+	height: 75px;
+	width: 150px;
+	margin-left: 10px;
+	color: #333;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 1px solid #fff;
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .6);
+}
+
+/*======SUNSRISE/SUNSET=====*/
+
+.weather-additional {
+	margin-top: 50px;
+}
+
+.sunset, .sunrise {
+	font-weight: 300;
+	font-size: 1.5rem;
+	display: inline;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/*======ICONS=======*/
+
+.description i {
+	font-size: 2.9rem;
+	line-height: 120%;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+
+.ion-waterdrop {
+	padding-right: 10px;
+}
+
+.ion-flag {
+	padding-right: 5px;
+	font-size: 1em !important;
+}
+
+.ion-umbrella {
+	padding-right: 10px;
+}
+
+.ion-ios-arrow-thin-up,
+.ion-ios-arrow-thin-down,
+.ion-ios-sunny {
+	font-size: 2rem;
+	line-height: 120%;
+	vertical-align: middle;
+	margin-top: -5px;
+}
